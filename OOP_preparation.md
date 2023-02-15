@@ -152,7 +152,7 @@ In this example, the myProtectedVar member variable and myProtectedFunction() me
 
 # Constructor and Destructor
 
-** Constructor Code: **
+**Constructor Code:**
 ```
 class MyClass {
 private:
@@ -164,7 +164,7 @@ public:
     }
 };
 ```
-** Constructor Characteristics  **
+**Constructor Characteristics**
 - Constructors have the same name as the class they belong to.
 - Constructors do not have a return type, not even void.
 - Constructors can be overloaded, meaning that a class can have multiple constructors with different parameters.
