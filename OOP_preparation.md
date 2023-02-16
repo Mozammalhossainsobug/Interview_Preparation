@@ -202,7 +202,7 @@ public:
 
 # Passing object as function argument  and Returning Object 
 
-**Passing object as function argument**
+## Passing object as function argument
 
 ```
 class MyClass {
@@ -250,7 +250,7 @@ int main() {
 </details>
 
 
-**Returning Object from function**
+## Returning Object from function
 
 ```
 class Point {
@@ -269,6 +269,12 @@ int main() {
     return 0;
 }
 ```
+<details><summary>EXPLANATION</summary>
+<p>
+we have a class called Point with two public integer member variables called x and y. We also have a function called getOrigin that creates and returns a Point object with x and y set to 0. In main(), we call getOrigin and store the returned Point object in a variable called origin. We then print the x and y member variables of the origin object
+</p>
+</details>
+
 If the object is large or complex, returning it by reference or pointer may be more efficient.
 ```
 class Vector {
@@ -300,3 +306,8 @@ int main() {
     return 0;
 }
 ```
+<details><summary>EXPLANATION</summary>
+<p>
+we have a class called Vector that represents a dynamic array of integers. We also have a function called createVector that creates and returns a Vector object by reference. In main(), we call createVector and store the returned Vector object by reference in a variable called myVector. We then set the data member variables of the myVector object and print the second element. Finally, we explicitly delete the myVector object to prevent a memory leak.
+</p>
+</details>
